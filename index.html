@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>User List</title>
+</head>
+
+<body>
+
+    <div class="container mt-5">
+        <!-- Dark and Light button -->
+        <div class="d-flex justify-content-end">
+            <div class="btn-group btn-group-sm" role="group">
+                <button class="btn btn-secondary" data-bs-theme-value="dark">Dark</button>
+                <button class="btn btn-light" data-bs-theme-value="light">Light</button>
+            </div>
+        </div>
+        <!-- Users, Search input and buttons -->
+        <div class="row gap-4 gap-md-0 mb-3">
+            <div class="col-12 col-md-4 d-flex flex-column">
+                <h3 class="display-4">Users</h3>
+                <input type="text" class="form-control" placeholder="Search Users">
+            </div>
+            <div class="col-12 col-md-8 d-flex align-items-md-end justify-content-md-end">
+                <div class="d-flex flex-wrap gap-3">
+                    <div class="btn btn-outline-primary">Reputation</div>
+                    <div class="btn btn-outline-primary active">Users</div>
+                    <div class="btn btn-outline-primary">Editors</div>
+                    <div class="btn btn-outline-primary">Moderators</div>
+                </div>
+            </div>
+        </div>
+        <!-- Cards users list -->
+        <div id="users-list" class="row mt-5">
+            <div class="col-12 col-md-6 col-lg-4 mb-3" data-bs-toggle="popover" data-bs-placement="top"
+                data-bs-content="daniel@primamateria.com">
+                <div class="card">
+                    <div class="row g-0">
+                        <div class="col-4 pt-3 ps-3">
+                            <img src="assets/br-KwHDV_400x400.jpg" class="img-fluid rounded-circle">
+                        </div>
+                        <div class="col-8">
+                            <div class="card-body">
+                                <h5 class="card-title text-capitalize">daniel ek</h5>
+                                <p class="card-text text-muted text-capitalize">stockholm, sweden</p>
+                                <div class="d-flex flex-wrap gap-2">
+                                    <button class="btn btn-primary">Entrepreneur</button>
+                                    <button class="btn btn-primary">Computer Scientist</button>
+                                    <button class="btn btn-primary">Business Person</button>
+                                    <button class="btn btn-primary">CEO of Spotify</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mb-3" data-bs-toggle="popover" data-bs-placement="top"
+                data-bs-content="steveJobs@iloud.com">
+                <div class="card">
+                    <div class="row g-0">
+                        <div class="col-4 pt-3 ps-3">
+                            <img src="assets/apple-ceo-steve-jobs-speaks-during-an-apple-special-event-news-photo-1683661736.jpg"
+                                class="img-fluid rounded-circle">
+                        </div>
+                        <div class="col-8">
+                            <div class="card-body">
+                                <h5 class="card-title text-capitalize">steve jobs</h5>
+                                <p class="card-text text-muted text-capitalize">san francisco, california</p>
+                                <div class="d-flex flex-wrap gap-2">
+                                    <button class="btn btn-primary">Entrepreneur</button>
+                                    <button class="btn btn-primary">Former CEO of Apple</button>
+                                    <button class="btn btn-primary">Inventor</button>
+                                    <button class="btn btn-primary">Computer Scientist</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mb-3" data-bs-toggle="popover" data-bs-placement="top"
+                data-bs-content="zuck@fb.com">
+                <div class="card">
+                    <div class="row g-0">
+                        <div class="col-4 pt-3 ps-3">
+                            <img src="assets/0x0.webp" class="img-fluid rounded-circle">
+                        </div>
+                        <div class="col-8">
+                            <div class="card-body">
+                                <h5 class="card-title text-capitalize">mark zuckerberg</h5>
+                                <p class="card-text text-muted text-capitalize">stockholm, sweden</p>
+                                <div class="d-flex flex-wrap gap-2">
+                                    <button class="btn btn-primary">Entrepreneur</button>
+                                    <button class="btn btn-primary">Computer Scientist</button>
+                                    <button class="btn btn-primary">Business Person</button>
+                                    <button class="btn btn-primary">CEO of Facebook</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mb-3" data-bs-toggle="popover" data-bs-placement="top"
+                data-bs-content="shouzi.chew@gmail.com">
+                <div class="card">
+                    <div class="row g-0">
+                        <div class="col-4 pt-3 ps-3">
+                            <img src="assets/26041847-chew-shou-zi-tiktok_cover_800x800.jpeg"
+                                class="img-fluid rounded-circle">
+                        </div>
+                        <div class="col-8">
+                            <div class="card-body">
+                                <h5 class="card-title text-capitalize">shou zi chew</h5>
+                                <p class="card-text text-muted text-capitalize">singapore</p>
+                                <div class="d-flex flex-wrap gap-2">
+                                    <button class="btn btn-primary">Entrepreneur</button>
+                                    <button class="btn btn-primary">CEO of TikTok</button>
+                                    <button class="btn btn-primary">Manager</button>
+                                    <button class="btn btn-primary">Computer Scientist</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mb-3" data-bs-toggle="popover" data-bs-placement="top"
+                data-bs-content="andy@amazon.com">
+                <div class="card">
+                    <div class="row g-0">
+                        <div class="col-4 pt-3 ps-3">
+                            <img src="assets/Andy_Jassy.jpg" class="img-fluid rounded-circle">
+                        </div>
+                        <div class="col-8">
+                            <div class="card-body">
+                                <h5 class="card-title text-capitalize">andy jassy</h5>
+                                <p class="card-text text-muted text-capitalize">new york, united states</p>
+                                <div class="d-flex flex-wrap gap-2">
+                                    <button class="btn btn-primary">Entrepreneur</button>
+                                    <button class="btn btn-primary">CEO of Amazon</button>
+                                    <button class="btn btn-primary">Business Executive</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mb-3" data-bs-toggle="popover" data-bs-placement="top"
+                data-bs-content="melanie.perkins@gmail.com">
+                <div class="card">
+                    <div class="row g-0">
+                        <div class="col-4 pt-3 ps-3">
+                            <img src="assets/1516350216557.jpg" class="img-fluid rounded-circle">
+                        </div>
+                        <div class="col-8">
+                            <div class="card-body">
+                                <h5 class="card-title text-capitalize">melanie perkins</h5>
+                                <p class="card-text text-muted text-capitalize">perth, australia</p>
+                                <div class="d-flex flex-wrap gap-2">
+                                    <button class="btn btn-primary">Entrepreneur</button>
+                                    <button class="btn btn-primary">Business Person</button>
+                                    <button class="btn btn-primary">CEO of Canva</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Pagination -->
+        <div id="page" class="d-flex justify-content-center justify-content-md-start mt-5">
+            <nav>
+                <ul class="pagination pagination-sm">
+                    <li class="page-item">
+                        <a href="" class="page-link">Previous</a>
+                    </li>
+                    <li class="page-item">
+                        <a href="" class="page-link">1</a>
+                    </li>
+                    <li class="page-item">
+                        <a href="" class="page-link">2</a>
+                    </li>
+                    <li class="page-item active">
+                        <a href="" class="page-link">3</a>
+                    </li>
+                    <li class="page-item">
+                        <a href="" class="page-link">Next</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/darkAndLight.js"></script>
+    <script src="js/popover.js"></script>
+
+</body>
+
+</html>
